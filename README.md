@@ -1,0 +1,2 @@
+# R5T.Dalkeith.Base
+An IDataDirectoryNameConvention service definition base library for the Dalkeith project.
