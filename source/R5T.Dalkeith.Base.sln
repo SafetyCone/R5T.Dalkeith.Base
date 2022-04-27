@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Dalkeith.Base.Construction", "R5T.Dalkeith.Base.Construction\R5T.Dalkeith.Base.Construction.csproj", "{80C35515-7426-4F9A-AD8A-F0BA28730F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dalkeith.Base.Construction", "R5T.Dalkeith.Base.Construction\R5T.Dalkeith.Base.Construction.csproj", "{80C35515-7426-4F9A-AD8A-F0BA28730F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Dalkeith.Base", "R5T.Dalkeith.Base\R5T.Dalkeith.Base.csproj", "{44B3450E-813B-4D66-843F-F5E707BC19C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dalkeith.Base", "R5T.Dalkeith.Base\R5T.Dalkeith.Base.csproj", "{44B3450E-813B-4D66-843F-F5E707BC19C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{DB3C6385-CD14-47E8-8F00-586E257B7147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{80C35515-7426-4F9A-AD8A-F0BA28730F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{44B3450E-813B-4D66-843F-F5E707BC19C4}.Release|x64.Build.0 = Release|Any CPU
 		{44B3450E-813B-4D66-843F-F5E707BC19C4}.Release|x86.ActiveCfg = Release|Any CPU
 		{44B3450E-813B-4D66-843F-F5E707BC19C4}.Release|x86.Build.0 = Release|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Debug|x64.Build.0 = Debug|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Release|x64.Build.0 = Release|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F1923A8-CD02-40BF-946F-A57AA0BBBA7A} = {DB3C6385-CD14-47E8-8F00-586E257B7147}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92DFC506-54AA-4441-8A5F-3B56AF8880FA}
 	EndGlobalSection
 EndGlobal
